@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
 body {
 	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	color: #222
 }
 
 main {
@@ -18,6 +22,7 @@ main {
 	justify-content: center;
 	padding: 24px;
 	box-sizing: border-box;
+	border-radius: 16px;
 }
 
 form {
@@ -27,23 +32,26 @@ form {
 }
 
 .form-greeting {
-	font-size: 36px;
+	font-size: 30px;
 	width: 384px;
 	text-align: center;
 	margin: 16px 0;
 }
 
-legend {
-	margin-right: auto;
-}
-
 fieldset {
-	border: 1px solid black;
+	border: 1px solid #222;
 	display: flex;
 	justify-content: center;
 	box-sizing: border-box;
 	flex-direction: column;
 	height: 64px;
+	border-radius: 4px;
+}
+
+#login,
+#password {
+	outline: none;
+	border: none;
 }
 
 .input-password {
@@ -53,10 +61,14 @@ fieldset {
 input {
 	width: 256px;
 	height: 24px;
+	background-color: rgb(193, 240, 255);
 }
 
 input[type = submit] {
 	width: 120px;
 	height: 40px;
 	margin-top: auto;
+	font-family: 'Montserrat', sans-serif;
+	color: #222;
+	border: none;
 }
