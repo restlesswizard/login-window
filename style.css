@@ -53,5 +53,6 @@ input {
 
 input[type = submit] {
 	width: 120px;
-	height: 32px;
+	height: 40px;
+	margin-top: auto;
 }
